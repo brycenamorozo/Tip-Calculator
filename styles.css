@@ -1,0 +1,27 @@
+body{
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperscraft.com%2Fdownload%2Fblue_backgrounds_solid_light_65833%2F2560x1440&psig=AOvVaw0lEa_9AtyB1684JzEZUjgx&ust=1581019204599000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDD8NWZu-cCFQAAAAAdAAAAABAD);
+  background-repeat: repeat;
+  background-color: #0047ab;
+}
+
+#top{
+  font-family: sans-serif;
+  color: #ffffff;
+  text-align: center;
+  border: solid 4px #000000S;
+}
+
+h2{
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+#input{
+  border: solid 3px #000000;
+  border-radius: 4px;
+}
+
+#total {
+ font-family: sans-serif;
+  color: #ffffff;
+}

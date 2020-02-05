@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<script src="main.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<html>
+  <head>
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+  <div>
+    <h1 id="top">Tip Calculator</h1>
+  </div>
+    <div>
+      <div>
+        <h2>Bill Price</h2>
+        <form>
+          <input id="input" type="text" name="fname" placeholder="Bill Price"><br>
+        </form>
+      </div>
+      <div>
+        <h2>Presets</h2>
+        <button onclick="presets(.10)">10%</button>
+        <button onclick="presets(.15)">15%</button>
+        <button onclick="presets(.20)">20%</button>
+        <h2>Custom Tip</h2>
+        <form>
+          <input id="c" type="text" name="fname" placeholder="Custom Percentage"><br>
+        </form>
+      </div>
+      <div>
+        <button onclick="custom()">Submit</button>
+      </div>
+      <h1 id="total">Total Tip: $0.00</h1>
+    </div>
+  </body>
+</html>
