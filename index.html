@@ -9,27 +9,31 @@
   <div>
     <h1 id="top">Tip Calculator</h1>
   </div>
+   <div id="box">
     <div>
       <div>
-        <h2>Bill Price</h2>
+        <h2>Bill Price:</h2>
+        <h3>(Note - Do not add a dollar sign "$")</h3>
         <form>
-          <input id="input" type="text" name="fname" placeholder="Bill Price"><br>
+          <input id="input" type="text" name="fname" placeholder="  Bill Price"><br>
         </form>
       </div>
       <div>
-        <h2>Presets</h2>
+        <h2>Preset Tip Options:</h2>
         <button onclick="presets(.10)">10%</button>
         <button onclick="presets(.15)">15%</button>
         <button onclick="presets(.20)">20%</button>
-        <h2>Custom Tip</h2>
+        <h2>Custom Tip:</h2>
+        <h3>(Note - Example: If you want to tip 25%, enter 25)</h3>
         <form>
-          <input id="c" type="text" name="fname" placeholder="Custom Percentage"><br>
+          <input id="c" type="text" name="fname" placeholder="  Custom Percentage"><br>
         </form>
       </div>
       <div>
-        <button onclick="custom()">Submit</button>
+        <button id="sub" onclick="custom()">Submit</button>
       </div>
       <h1 id="total">Total Tip: $0.00</h1>
     </div>
+   </div>>
   </body>
 </html>
